@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: skyblue;
+}
+
+h1 {
+  color:black;
+  background-color: aliceblue;
+  
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  margin: 20px auto;
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 2px dotted black;
+  cursor: pointer;
+}
+
+
+
+#status {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1cm;
+}
